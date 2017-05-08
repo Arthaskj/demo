@@ -1,0 +1,262 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+.box0{
+	width: 100%;
+	height: 90%;
+	position: relative;
+	transition: all 2s;
+}
+.box0 div{
+	width: 250px;
+	height:250px;
+	transition: all 0.5s;
+	
+}
+
+.box0 span{
+	color: #fff;
+	font-size: 200px;
+	text-align: center;
+	line-height: 250px;
+	position: absolute;
+	margin:-10px 20px ;
+}
+
+
+	
+	
+
+
+
+.box1{
+	position: absolute;
+	top: 100px;
+	left: 350px;
+	background:#333;
+	display: block;
+	transform-origin:left;
+	transform:translatex(0px);	
+	opacity: 1;
+
+}
+
+.box2{
+	position: absolute;
+	top: 100px;
+	left: 750px;
+	background:#333;
+	transform-origin:left;
+	transform:translatex(0px);	
+	opacity: 1;
+}
+.box3{
+	position: absolute;
+	top: 400px;
+	left: 100px;
+	background:#333;
+	transform-origin:left;
+	transform:translatex(0px);	
+	opacity: 1;
+}
+.box4{
+	position: absolute;
+	top: 400px;
+	left: 400px;
+	background:#333;
+	transform-origin:left;
+	transform:translatex(0px);	
+	opacity: 1;
+}
+.box5{
+	position: absolute;
+	top: 400px;
+	left: 700px;
+	background:#333;
+	transform-origin:left;
+	transform:translatex(0px);	
+	opacity: 1;
+}
+.box6{
+	position: absolute;
+	top: 400px;
+	left: 1000px;
+	background:#333;
+	transform-origin:left;
+	transform:translatex(0px);	
+	opacity: 1;
+}
+.box7{
+	position: absolute;
+	top: 700px;
+	left: 100px;
+	background:#333;
+	transform-origin:left;
+	transform:translatex(0px);	
+	opacity: 1;
+}
+.box8{
+	position: absolute;
+	top: 700px;
+	left: 400px;
+	background:#333;
+	transform-origin:left;
+	transform:translatex(0px);	
+	opacity: 1;
+}
+.box9{
+	position: absolute;
+	top: 700px;
+	left: 700px;
+	background:#333;
+	transform-origin:left;
+	transform:translatex(0px);	
+	opacity: 1;
+}
+.boxa{
+	position: absolute;
+	top: 700px;
+	left: 1000px;
+	background:#333;
+	transform-origin:left;
+	transform:translatex(0px);	
+	opacity: 1;
+}
+.boxb{
+	position: absolute;
+	top: 1000px;
+	left: 100px;
+	background:#333;
+	transform-origin:left;
+	transform:translatex(0px);	
+	opacity: 1;
+}
+.boxc{
+	position: absolute;
+	top: 1000px;
+	left: 400px;
+	background:#333;
+	transform-origin:left;
+	transform:translatex(0px);	
+	opacity: 1;
+}
+.boxd{
+	position: absolute;
+	top: 1000px;
+	left: 700px;
+	background:#333;
+	transform-origin:left;
+	transform:translatex(0px);	
+	opacity: 1;
+}
+.boxe{
+	position: absolute;
+	top: 1000px;
+	left: 1000px;
+	background:#333;
+	transform-origin:left;
+	transform:translatex(0px);	
+	opacity: 1;
+}
+
+.box11{
+	position: absolute;
+	top: 100px;
+	left: 350px;
+	background:url(../img/1.png) no-repeat center/cover ;
+}
+
+	
+.box22{
+	position: absolute;
+	top: 100px;
+	left: 750px;
+	background:url(../img/2.jpg) no-repeat center/cover ;
+}
+.box33{
+	position: absolute;
+	top: 400px;
+	left: 100px;
+	background:url(../img/3.jpeg) no-repeat center/cover ;
+}
+.box44{
+	position: absolute;
+	top: 400px;
+	left: 400px;
+	background:url(../img/4.jpg) no-repeat center/cover ;
+}
+.box55{
+	position: absolute;
+	top: 400px;
+	left: 700px;
+	background:url(../img/5.jpeg) no-repeat center/cover ;
+}
+.box66{
+	position: absolute;
+	top: 400px;
+	left: 1000px;
+	background:url(../img/6.png) no-repeat center/cover ;
+}
+.box77{
+	position: absolute;
+	top: 700px;
+	left: 100px;
+	background:url(../img/7.png) no-repeat center/cover ;
+}
+.box88{
+	position: absolute;
+	top: 700px;
+	left: 400px;
+	background:url(../img/8.jpeg) no-repeat center/cover ;
+}
+.box99{
+	position: absolute;
+	top: 700px;
+	left: 700px;
+	background:url(../img/9.jpeg) no-repeat center/cover ;
+}
+.boxaa{
+	position: absolute;
+	top: 700px;
+	left: 1000px;
+	background:url(../img/a.jpeg) no-repeat center/cover ;
+}
+.boxbb{
+	position: absolute;
+	top: 1000px;
+	left: 100px;
+	background:url(../img/b.jpg) no-repeat center/cover ;
+}
+.boxcc{
+	position: absolute;
+	top: 1000px;
+	left: 400px;
+	background:url(../img/c.jpg) no-repeat center/cover ;
+}
+.boxdd{
+	position: absolute;
+	top: 1000px;
+	left: 700px;
+	background:url(../img/d.jpg) no-repeat center/cover ;
+}
+.boxee{
+	position: absolute;
+	top: 1000px;
+	left: 1000px;
+	background:url(../img/e.jpeg) no-repeat center/cover ;
+}
+.aa{
+	width: 300px;
+	height: 50px;
+	display: block;
+	position: absolute;
+	bottom: -10%px;
+	right: 0;
+	left: 0;
+	margin: auto;
+	color: #000;
+	font-size: 30px;
+	font-weight: bold;
+}
