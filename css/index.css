@@ -1,0 +1,307 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+
+#div1{
+	width: 100%;
+	height: 160px;
+	
+	position: relative;
+	top: 0;
+}
+#div1 img{
+	position: absolute;
+	width: 200px;
+	left: 50px;
+	top:0;
+	bottom: 0;
+	margin: auto;
+	z-index: -2;
+
+}
+
+#search{
+	width: 50%;
+	height: 40px;
+	background:#888;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	border: 2px solid #cc0033;
+	
+}
+
+.csearch{
+	border: 2px solid #cc0033;
+	margin:auto;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	height:100%;
+	cursor: pointer;
+	z-index: 0;
+}
+
+#div2{
+	width: 100%;
+	height: 540px;
+	background:#333;
+	position: relative;
+}
+
+.em1{
+	display: block;
+	width: 35px;
+	height: 35px;
+	float: left;
+	position: relative;
+	left: 20%;
+}
+.em1:nth-child(1){
+	background:url(../img/menu.png) no-repeat center/cover;
+}
+
+
+#torbar{
+	width: 100%;
+	height: 35px;
+	background:#dd2727;
+	position: absolute;
+	
+
+}
+#dabai1,#dabai2,#dabai3,#dabai4,#dabai5{
+	background:url(../img/dabai.png) no-repeat center/cover;
+	width: 85px;
+	height: 50px;
+	position: absolute;
+	top: 35px;
+	margin-left: 35px;
+	transition: all 0.5s;
+	z-index: -1;
+	opacity: -1;
+}
+
+
+
+
+.li1{
+	height: 100%;
+	width: 15%;
+	list-style: none;
+	display: block;
+	float: left;
+	color: #fff;
+	font-size: 29px;
+	background:#dd2727;
+	text-align: center;
+	font-family: STXinwei;
+	font-weight: normal;
+	z-index: 3;
+}
+.li1 a{
+	color: #fff;
+	font-family: STXinwei;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.aa{
+	height: 505px;
+	width: 200px;
+	list-style: none;
+	display: block;
+	color: #fff;
+	font-size: 29px;
+	background:#ddd;
+	
+	position: relative;
+	margin-top: 4px;
+	z-index: 3;
+}
+.li2 img{
+	width: 35px;
+	height: 35px;
+	float: left;
+	margin-left: 10px;
+
+}
+.li2 span{
+	
+	float: left;
+	margin:5px 10px;
+
+}
+.li2 a{
+	text-decoration: none;
+	color: #333;
+	font-size: 18px;
+	font-family: 微软雅黑;
+	font-weight: bolder;
+}
+.li2 a:hover{
+	color: #aaa;
+}
+
+.li2{
+	height: 35px;
+	width: 200px;
+	list-style: none;
+	display: block;
+	color: #000;
+	font-size: 20px;
+	font-family: SimHei;
+	
+	}
+.li2:hover{
+	background:#fff;
+	cursor: pointer;
+	color: #aaa;
+}
+
+.li1:hover{
+	background:#c60a0a;
+	cursor: pointer;
+}
+.ll {
+	position: absolute;
+	top: 0px;
+	left: 40px;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	
+}
+
+.tool{
+	width: 720px;
+	height: 505px;
+	position: absolute;
+	background:#fff;
+	left:200px;
+	top: 0px;
+	transform-origin: left top;
+	transform:scale(0);
+	transition: all 0.5s;
+}
+
+
+
+
+
+.fbox{
+	width: 100%;
+	height: 505px;
+	position: absolute;
+	top: 35px;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin:auto;
+	
+}
+
+.tbox{
+	width: 100%;
+	height: 505px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin:auto;
+	float: left;
+	z-index:2;
+}
+#b,#c,#d,#e{
+	width: 100%;
+	height: 505px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	margin:auto;
+	transition:all 1s;
+	opacity: 0;
+	
+}
+
+#a{
+	width: 100%;
+	height: 505px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	margin:auto;
+	transition:all 1s;
+	opacity: 1;
+	
+}
+.tbox:nth-child(1){
+	background:url(../img/lbtimg/1.jpg) no-repeat center/cover;
+}
+.tbox:nth-child(2){
+	background:url(../img/lbtimg/2.jpg) no-repeat center/cover;
+}
+.tbox:nth-child(3){
+	background:url(../img/lbtimg/3.jpg) no-repeat center/cover;
+}
+.tbox:nth-child(4){
+	background:url(../img/lbtimg/4.jpg) no-repeat center/cover;
+}
+.tbox:nth-child(5){
+	background:url(../img/lbtimg/5.jpg) no-repeat center/cover;
+}
+
+
+.tbar{
+	width: 280px;
+	height: 20px;
+	z-index:2;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 20px;
+	margin: auto ;
+}
+
+
+#b1,#c1,#d1,#e1{
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background:#999;
+	float: left;
+	margin-left: 20px;
+}
+#a1{
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background:#333;
+	float: left;
+	margin-left: 20px;
+}
+
+
+#tool1{
+	background:url(../img/barxizang.png) no-repeat ;
+}
+#tool2{
+	background:url(../img/barmusic.png) no-repeat ;
+}
+#tool4{
+
+	background:url(../img/laotiebg.jpg) no-repeat center/cover;
+}
